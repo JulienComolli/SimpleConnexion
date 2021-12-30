@@ -1,0 +1,33 @@
+{
+  "name": "simpleconnexion",
+  "version": "1.0.0",
+  "description": "Basic \"Social network\" project using Express, Handlerbars and SQLite.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulienComolli/SimpleConnexion.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "express",
+    "handlebars",
+    "sqlite"
+  ],
+  "author": "JulienComolli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulienComolli/SimpleConnexion/issues"
+  },
+  "homepage": "https://github.com/JulienComolli/SimpleConnexion#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.4.6",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "express-session": "^1.17.2"
+  }
+}

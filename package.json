@@ -26,9 +26,11 @@
   },
   "homepage": "https://github.com/JulienComolli/SimpleConnexion#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "better-sqlite3": "^7.4.6",
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
-    "express-session": "^1.17.2"
+    "express-session": "^1.17.2",
+    "mongoose": "^6.1.4"
   }
 }
